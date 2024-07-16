@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "build":"nodemon -r dotenv/config --experimental-json-modules index.js",
-    "dev": "nodemon -r dotenv/config --experimental-json-modules index.js"
+    "build":"node ./bin/www"
   },
   "dependencies": {
     "connect-flash": "^0.1.1",
