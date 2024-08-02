@@ -2,6 +2,7 @@ const mongoose = require('mongoose')
 const plm = require('passport-local-mongoose')
 
 mongoose.connect("mongodb+srv://whitehat2774:CZuB9d0b3ksJHz2x@cluster0.sjpnq7x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/gallery")
+// mongoose.connect("mongodb://localhost:27017/Gallery")
 const userSchema = mongoose.Schema({
   username:String,
   name:String,
